@@ -44,6 +44,11 @@ h4 {
     column-gap: 20px;
 }
 
+.col:hover {
+    background-color: #4cc9f0;
+    border-radius: 25px;
+}
+
 img {
     width: 100%;
     height: auto;
