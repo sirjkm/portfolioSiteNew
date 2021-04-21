@@ -83,22 +83,26 @@ body {
     padding: 1em;
 }
 
-#Ling {
+#cqa {
     background-color: #b5179e;
     color: white;
     padding: 1em;
 }
 
-#Arngren {
+#nps {
     background-color: #7209b7;
     color: white;
     padding: 1em;
 }
 
-#Yale {
+#wdb {
     background-color: #b5179e;
     color: white;
     padding: 1em;
+}
+
+img {
+    height: 30vh;
 }
 
 ul {
