@@ -64,13 +64,17 @@ const phrases = [
 
 const el = document.querySelector('.text')
 const fx = new TextScramble(el)
-
+i
 let counter = 0
 const next = () => {
-  fx.setText(phrases[counter]).then(() => {
+    fx.setText(phrases[counter]).then(() => {
     setTimeout(next, 800)
-  })
-  counter = (counter + 1) % phrases.length
+    })
+    counter = (counter + 1) % phrases.length
 }
 
-next()
+next();
+
+function dropDown() {
+    document.getElementById("navbar-dropdown").classList.toggle('show');
+};
