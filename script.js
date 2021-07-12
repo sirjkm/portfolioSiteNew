@@ -73,8 +73,4 @@ const next = () => {
     counter = (counter + 1) % phrases.length
 }
 
-next();
-
-function dropDown() {
-    document.getElementById("navbar-dropdown").classList.toggle('show');
-};
+next()
