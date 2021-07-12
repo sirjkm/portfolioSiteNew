@@ -64,7 +64,7 @@ const phrases = [
 
 const el = document.querySelector('.text')
 const fx = new TextScramble(el)
-i
+
 let counter = 0
 const next = () => {
     fx.setText(phrases[counter]).then(() => {
